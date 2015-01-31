@@ -10,19 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "SetupController"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SetupController."
+  s.summary          = "MBSetupController can present a sequence of dialog views that lead the user through a series of steps like a wizard or a setup assistant."
   s.description      = <<-DESC
-                       An optional longer description of SetupController
+                       A MBSetupController is a subclass of UIViewController controller that acts like a wizard or setup assistant to present a sequence of dialog views that lead the user through a series of steps.
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SetupController"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/miximka/SetupController"
+  #s.screenshots     = "https://www.dropbox.com/s/n41kjm8i4tlkkoc/iPhonePortrait.png?dl=1", "https://www.dropbox.com/s/wnpeol26nu9eja7/iPadLandscape.png?dl=1"
   s.license          = 'MIT'
   s.author           = { "Maksim Bauer" => "miximka@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SetupController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/miximka/SetupController.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/miximka'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
