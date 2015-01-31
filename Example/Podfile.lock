@@ -1,0 +1,14 @@
+PODS:
+  - SetupController (0.1.0)
+
+DEPENDENCIES:
+  - SetupController (from `../`)
+
+EXTERNAL SOURCES:
+  SetupController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SetupController: 067df92ac4f6babedfc6cbd0a07c82ec089bf13a
+
+COCOAPODS: 0.35.0

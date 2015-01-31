@@ -1,0 +1,8 @@
+//
+//  SetupControllerTests.m
+//  SetupControllerTests
+//
+// Created by Maksim Bauer on 26/04/14.
+//  Copyright (c) 2014 Maksim Bauer. All rights reserved.
+//
+
