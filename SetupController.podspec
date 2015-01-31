@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/miximka/SetupController"
-  s.screenshots     = "https://www.dropbox.com/s/n41kjm8i4tlkkoc/iPhonePortrait.png?dl=1", "https://www.dropbox.com/s/wnpeol26nu9eja7/iPadLandscape.png?dl=1"
+  #s.screenshots     = "https://www.dropbox.com/s/n41kjm8i4tlkkoc/iPhonePortrait.png?dl=1", "https://www.dropbox.com/s/wnpeol26nu9eja7/iPadLandscape.png?dl=1"
   s.license          = 'MIT'
   s.author           = { "Maksim Bauer" => "miximka@gmail.com" }
   s.source           = { :git => "https://github.com/miximka/SetupController.git", :tag => s.version.to_s }
