@@ -355,8 +355,10 @@
     CGRect visibleFrame = self.view.frame;
     visibleFrame.size.height -= keyboardRect.size.height;
     CGRect activeFieldFrame = [self.view convertRect:self.activeField.frame fromView:self.activeField.superview];
+    
     if (!CGRectContainsPoint(visibleFrame, activeFieldFrame.origin)) {
-        [scrollView scrollRectToVisible:self.activeField.frame animated:YES];
+        activeFieldFrame = [scrollView convertRect:self.activeField.frame fromView:self.activeField.superview];
+        [scrollView scrollRectToVisible:activeFieldFrame animated:YES];
     }
 }
 
