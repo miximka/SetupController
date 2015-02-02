@@ -30,6 +30,7 @@
 
 @interface MBTableViewPageController ()
 @property (nonatomic) NSMutableArray *mutableSections;
+@property (nonatomic) UITextField *activeField;
 @end
 
 @implementation MBTableViewPageController
@@ -38,7 +39,7 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        _useAutosizingCells = [MBSetupControllerUtilities isAutosizingTableViewCellsSupported];
+        [self configurePageController];
     }
     return self;
 }
@@ -47,9 +48,35 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        _useAutosizingCells = [MBSetupControllerUtilities isAutosizingTableViewCellsSupported];
+        [self configurePageController];
     }
     return self;
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (void)configurePageController
+{
+    _useAutosizingCells = [MBSetupControllerUtilities isAutosizingTableViewCellsSupported];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardDidShowNotification:)
+                                                 name:UIKeyboardDidShowNotification object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillHideNotification:)
+                                                 name:UIKeyboardWillHideNotification object:nil];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(textFieldDidBeginEditingNotification:)
+                                                 name:UITextFieldTextDidBeginEditingNotification object:nil];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(textFieldDidEndEditingNotification:)
+                                                 name:UITextFieldTextDidEndEditingNotification object:nil];
 }
 
 - (void)addTableView
@@ -295,6 +322,54 @@
     if (item.didSelectBlock) {
         item.didSelectBlock(item);
     }
+}
+
+#pragma mark - UITextFieldDelegate
+
+- (void)textFieldDidBeginEditingNotification:(NSNotification *)notification
+{
+    self.activeField = notification.object;
+}
+
+- (void)textFieldDidEndEditingNotification:(NSNotification *)notification
+{
+    self.activeField = nil;
+}
+
+#pragma mark - Keyboard Notifications
+
+- (void)keyboardDidShowNotification:(NSNotification *)notification
+{
+    UIScrollView *scrollView = self.tableView;
+    
+    CGRect keyboardRect = [(NSValue *)notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
+    keyboardRect = [self.view convertRect:keyboardRect fromView:nil];
+
+    //Update scroll view inset
+    UIEdgeInsets contentInsets = scrollView.contentInset;
+    contentInsets.bottom = keyboardRect.size.height;
+    scrollView.contentInset = contentInsets;
+    scrollView.scrollIndicatorInsets = contentInsets;
+
+    //Scroll to active text field
+    CGRect visibleFrame = self.view.frame;
+    visibleFrame.size.height -= keyboardRect.size.height;
+    CGRect activeFieldFrame = [self.view convertRect:self.activeField.frame fromView:self.activeField.superview];
+    if (!CGRectContainsPoint(visibleFrame, activeFieldFrame.origin)) {
+        [scrollView scrollRectToVisible:self.activeField.frame animated:YES];
+    }
+}
+
+- (void)keyboardWillHideNotification:(NSNotification *)notification
+{
+    UIScrollView *scrollView = self.tableView;
+    UIEdgeInsets contentInsets = scrollView.contentInset;
+    contentInsets.bottom = 0;
+    
+    [UIView animateWithDuration:0.3 animations:^{
+        scrollView.contentInset = contentInsets;
+        scrollView.scrollIndicatorInsets = contentInsets;
+    }];
 }
 
 @end
