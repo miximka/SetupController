@@ -9,8 +9,6 @@ A `MBSetupController` is a subclass of `UIViewController` controller that acts l
 
 It has been inspired by the iOS Setup.app application which is presented to user during the first-time device setup.
 
-**WARNING: The controller is still under active development and requires intensive testing so it is not recommended yet for production.**
-
 ![SetupController](https://www.dropbox.com/s/n41kjm8i4tlkkoc/iPhonePortrait.png?dl=1)
 ![SetupController](https://www.dropbox.com/s/wnpeol26nu9eja7/iPadLandscape.png?dl=1)
 
