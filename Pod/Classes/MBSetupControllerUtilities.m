@@ -77,4 +77,20 @@
     return isRegular;
 }
 
+- (BOOL)mbIsRegularVerticalSizeClass
+{
+    BOOL isRegular = NO;
+    
+    if ([UITraitCollection class]) {
+        //iOS 8 or later
+        UITraitCollection *traits = self.traitCollection;
+        isRegular = traits.verticalSizeClass == UIUserInterfaceSizeClassRegular;
+    } else {
+        //iOS 7 or earlier
+        isRegular = [UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad;
+    }
+    
+    return isRegular;
+}
+
 @end

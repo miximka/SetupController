@@ -38,5 +38,6 @@
     Returns YES if current trait horizontal size class is regular
  */
 - (BOOL)mbIsRegularHorizontalSizeClass;
+- (BOOL)mbIsRegularVerticalSizeClass;
 
 @end
