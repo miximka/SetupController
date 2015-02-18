@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_SetupController
 #define COCOAPODS_VERSION_MAJOR_SetupController 0
 #define COCOAPODS_VERSION_MINOR_SetupController 1
-#define COCOAPODS_VERSION_PATCH_SetupController 2
+#define COCOAPODS_VERSION_PATCH_SetupController 3
 

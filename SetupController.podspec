@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SetupController"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "MBSetupController can present a sequence of dialog views that lead the user through a series of steps like a wizard or a setup assistant."
   s.description      = <<-DESC
                        A MBSetupController is a subclass of UIViewController controller that acts like a wizard or setup assistant to present a sequence of dialog views that lead the user through a series of steps.
