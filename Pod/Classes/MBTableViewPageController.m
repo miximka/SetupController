@@ -109,8 +109,8 @@
     MBSectionHeader *view = [[MBSectionHeader alloc] init];
     view.titleLabel.text = title;
 
-    if (self.mbIsRegularVerticalSizeClass) {
-        //We have a lot of vertical space when in a regular size class, so push the things a bit apart
+    if (self.mbIsRegularVerticalSizeClass && self.mbIsRegularHorizontalSizeClass) {
+        //We have a lot of space when in a regular size class, so push the things a bit apart
         view.titleLabelInset = UIEdgeInsetsMake(HEADER_VIEW_LABEL_REGULAR_CLASS_MARGIN, 0, HEADER_VIEW_LABEL_REGULAR_CLASS_MARGIN, 0);
     }
     
