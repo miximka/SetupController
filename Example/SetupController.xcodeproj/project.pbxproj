@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02E305F2EF9E49059244D8B0 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8570DD848D962A783692B79A /* libPods-Tests.a */; };
+		0844F2321A9B1C2900FFCD2A /* MBWelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0844F2311A9B1C2900FFCD2A /* MBWelcomeController.m */; };
 		08D1AE841A7BDCDC002D4707 /* MBSampleSetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1AE831A7BDCDC002D4707 /* MBSampleSetupController.m */; };
 		08D1AE891A7BDD43002D4707 /* MBAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1AE861A7BDD43002D4707 /* MBAccountController.m */; };
 		08D1AE8A1A7BDD43002D4707 /* MBProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1AE881A7BDD43002D4707 /* MBProgressController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0844F2301A9B1C2900FFCD2A /* MBWelcomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWelcomeController.h; sourceTree = "<group>"; };
+		0844F2311A9B1C2900FFCD2A /* MBWelcomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWelcomeController.m; sourceTree = "<group>"; };
 		08D1AE821A7BDCDC002D4707 /* MBSampleSetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSampleSetupController.h; sourceTree = "<group>"; };
 		08D1AE831A7BDCDC002D4707 /* MBSampleSetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSampleSetupController.m; sourceTree = "<group>"; };
 		08D1AE851A7BDD43002D4707 /* MBAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAccountController.h; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				815BF23F1A7CD1AB0076B053 /* MBBackupController.m */,
 				08D1AE871A7BDD43002D4707 /* MBProgressController.h */,
 				08D1AE881A7BDD43002D4707 /* MBProgressController.m */,
+				0844F2301A9B1C2900FFCD2A /* MBWelcomeController.h */,
+				0844F2311A9B1C2900FFCD2A /* MBWelcomeController.m */,
 			);
 			name = "Sample Pages";
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 				08D1AE891A7BDD43002D4707 /* MBAccountController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				08D1AE8A1A7BDD43002D4707 /* MBProgressController.m in Sources */,
+				0844F2321A9B1C2900FFCD2A /* MBWelcomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 #import "MBSampleSetupController.h"
 #import "MBAccountController.h"
 #import "MBProgressController.h"
-#import "MBFinishPageController.h"
+#import "MBWelcomeController.h"
 #import "MBBackupController.h"
 #import "MBProgressController.h"
 
@@ -19,20 +19,9 @@
 
 @implementation MBSampleSetupController
 
-- (MBFinishPageController *)finishController
+- (MBWelcomeController *)finishController
 {
-    MBFinishPageController *controller = [[MBFinishPageController alloc] init];
-    [controller view];
-    
-    controller.imageView.image = [UIImage imageNamed:@"SampleImage"];
-    
-    NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
-    NSString *appName = infoDict[(NSString *)kCFBundleNameKey];
-    controller.titleLabel.text = [NSString stringWithFormat:@"Welcome to %@", appName];
-    
-    [controller.button setTitle:@"Get Started" forState:UIControlStateNormal];
-    [controller.button addTarget:self action:@selector(getStarted:) forControlEvents:UIControlEventTouchUpInside];
-    
+    MBWelcomeController *controller = [[MBWelcomeController alloc] init];
     return controller;
 }
 
