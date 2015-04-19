@@ -13,6 +13,7 @@
     self = [super initWithTitle:title];
     if (self)
     {
+        _switchAlignment = MBSwitchAlignmentRight;
         self.value = value;
         
         //Make text field cell non-selectable

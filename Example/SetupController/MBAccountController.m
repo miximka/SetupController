@@ -80,9 +80,10 @@
         return [(MBTextFieldItem *)item text].length > 0;
     };
 
-    MBSwitchItem *connectionType = [[MBSwitchItem alloc] initWithTitle:@"Use SSL" value:YES];
+    MBSwitchItem *connectionTypeItem = [[MBSwitchItem alloc] initWithTitle:@"Use SSL" value:YES];
+    connectionTypeItem.switchAlignment = MBSwitchAlignmentLeft;
     
-    section.items = @[hostItem, loginItem, passwordItem, connectionType];
+    section.items = @[hostItem, loginItem, passwordItem, connectionTypeItem];
     self.sections = @[section];
 }
 

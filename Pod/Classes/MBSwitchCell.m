@@ -12,13 +12,30 @@ static int MBSwitchCellContext;
 
 @interface MBSwitchCell() <UITextFieldDelegate>
 @property (nonatomic) BOOL updatingItemText;
+@property (nonatomic) NSArray *horizontalSwitchConstraints;
 @end
 
 @implementation MBSwitchCell
 
+@dynamic item;
+
 - (void)dealloc
 {
     [_switchView removeTarget:self action:@selector(switchDidChange:) forControlEvents:UIControlEventValueChanged];
+}
+
+- (void)switchDidChange: (id) sender
+{
+    MBSwitchItem *item = (MBSwitchItem *)self.item;
+    item.value = _switchView.on;
+}
+
+- (void)updateSwitchViewConstraints
+{
+    if (_horizontalSwitchConstraints) {
+        [self.contentView removeConstraints:_horizontalSwitchConstraints];
+        [self.contentView setNeedsUpdateConstraints];
+    }
 }
 
 #pragma mark - Overridden Methods
@@ -26,9 +43,14 @@ static int MBSwitchCellContext;
 - (void)setItem:(MBSwitchItem *)item
 {
     if (self.item != item) {
+        
         [self.item removeObserver:self forKeyPath:NSStringFromSelector(@selector(value)) context:&MBSwitchCellContext];
+        [self.item removeObserver:self forKeyPath:NSStringFromSelector(@selector(switchAlignment)) context:&MBSwitchCellContext];
+        
         [super setItem:item];
+
         [self.item addObserver:self forKeyPath:NSStringFromSelector(@selector(value)) options:0 context:&MBSwitchCellContext];
+        [self.item addObserver:self forKeyPath:NSStringFromSelector(@selector(switchAlignment)) options:0 context:&MBSwitchCellContext];
     }
 }
 
@@ -48,9 +70,10 @@ static int MBSwitchCellContext;
     switchView.translatesAutoresizingMaskIntoConstraints = NO;
     [contentView addSubview:switchView];
 
-    NSDictionary *views = NSDictionaryOfVariableBindings(titleLabel, switchView);
+    NSDictionary *views = NSDictionaryOfVariableBindings(titleLabel);
     
-    [contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[titleLabel]-[switchView]" options:0 metrics:nil views:views]];
+    [contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[titleLabel]" options:0 metrics:nil views:views]];
+    
     [titleLabel addConstraint:[NSLayoutConstraint constraintWithItem:titleLabel
                                                            attribute:NSLayoutAttributeWidth
                                                            relatedBy:NSLayoutRelationGreaterThanOrEqual
@@ -81,12 +104,6 @@ static int MBSwitchCellContext;
     [switchView addTarget:self action:@selector(switchDidChange:) forControlEvents:UIControlEventValueChanged];
 }
 
-- (void)switchDidChange: (id) sender
-{
-    MBSwitchItem *item = (MBSwitchItem *)self.item;
-    item.value = _switchView.on;
-}
-
 - (void)cellWillAppear
 {
     [super cellWillAppear];
@@ -97,15 +114,25 @@ static int MBSwitchCellContext;
     self.switchView.on = item.value;
 }
 
-#pragma mark - Overridden Methods
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+- (void)updateConstraints
 {
-    [super setSelected:selected animated:animated];
+    [super updateConstraints];
     
-    if (selected) {
-        //Automatically start editing
+    NSMutableArray *hSwitchConstraints = [NSMutableArray new];
+    
+    UILabel *titleLabel = self.titleLabel;
+    UISwitch *switchView = self.switchView;
+    
+    NSDictionary *views = NSDictionaryOfVariableBindings(titleLabel, switchView);
+    
+    if (self.item.switchAlignment == MBSwitchAlignmentLeft) {
+        [hSwitchConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"[titleLabel]-[switchView]" options:0 metrics:nil views:views]];
+    } else {
+        [hSwitchConstraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"[titleLabel]-(>=8)-[switchView]-|" options:0 metrics:nil views:views]];
     }
+    
+    [self.contentView addConstraints:hSwitchConstraints];
+    _horizontalSwitchConstraints = hSwitchConstraints;
 }
 
 #pragma mark - KVO Notifications
@@ -120,7 +147,11 @@ static int MBSwitchCellContext;
             if (!_updatingItemText) {
                 self.switchView.on = item.value;
             }
+        } else if ([keyPath isEqualToString:NSStringFromSelector(@selector(switchAlignment))]) {
+            [self updateSwitchViewConstraints];
+            [self setNeedsUpdateConstraints];
         }
+        
     } else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
