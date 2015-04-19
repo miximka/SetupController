@@ -41,6 +41,7 @@
 
 - (void)dealloc
 {
+    // Set item to nil to unregister from all KVO notifications
     [self setItem:nil];
 }
 
