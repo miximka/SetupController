@@ -34,7 +34,7 @@ static int MBSwitchCellContext;
 {
     if (_horizontalSwitchConstraints) {
         [self.contentView removeConstraints:_horizontalSwitchConstraints];
-        [self.contentView setNeedsUpdateConstraints];
+        [self setNeedsUpdateConstraints];
     }
 }
 
@@ -112,6 +112,9 @@ static int MBSwitchCellContext;
 
     self.titleLabel.text = item.title;
     self.switchView.on = item.value;
+    
+    // Switch alignment may have been changed so we have to update constraints
+    [self updateSwitchViewConstraints];
 }
 
 - (void)updateConstraints
