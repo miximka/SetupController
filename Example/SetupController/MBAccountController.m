@@ -11,6 +11,7 @@
 #import "MBSectionHeader.h"
 #import "MBSectionFooter.h"
 #import "MBTextFieldItem.h"
+#import "MBSwitchItem.h"
 
 @implementation MBAccountController
 
@@ -79,7 +80,9 @@
         return [(MBTextFieldItem *)item text].length > 0;
     };
 
-    section.items = @[hostItem, loginItem, passwordItem];
+    MBSwitchItem *connectionType = [[MBSwitchItem alloc] initWithTitle:@"Use SSL" value:YES];
+    
+    section.items = @[hostItem, loginItem, passwordItem, connectionType];
     self.sections = @[section];
 }
 
