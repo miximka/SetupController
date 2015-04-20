@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SetupController: 621d1c82721730fcfe04fdd6386ffcccc4170a81
+  SetupController: dd3a1abb65f4306b468e222180ff67123d674514
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.4
