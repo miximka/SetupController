@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @protocol MBSetupControllerDataSource;
 @protocol MBSetupControllerDelegate;
 
@@ -29,8 +31,8 @@
 
 @interface MBSetupController : UIViewController
 
-@property (weak, nonatomic) id<MBSetupControllerDataSource> dataSource;
-@property (weak, nonatomic) id<MBSetupControllerDelegate> delegate;
+@property (weak, nonatomic, nullable) id<MBSetupControllerDataSource> dataSource;
+@property (weak, nonatomic, nullable) id<MBSetupControllerDelegate> delegate;
 
 #pragma mark - Customizing Appearance
 
@@ -39,11 +41,10 @@
 #pragma mark - Providing Content
 
 /**
-    The view controllers currently on the stack.
-    Controllers should implement MBPage protocol.
+    The view controllers currently on stack.
  */
-@property (nonatomic, readonly) NSArray *viewControllers;
-- (void)setViewControllers:(NSArray *)controllers animated:(BOOL)animated;
+@property (nonatomic, readonly) NSArray<UIViewController<MBPage> *> *viewControllers;
+- (void)setViewControllers:(NSArray<UIViewController<MBPage> *> *)controllers animated:(BOOL)animated;
 
 #pragma mark - Navigating
 
@@ -62,7 +63,10 @@
 #pragma mark - Protocols
 
 @protocol MBSetupControllerDataSource <NSObject>
-- (UIViewController<MBPage> *)setupController:(MBSetupController *)setupController viewControllerAfterViewController:(UIViewController<MBPage> *)viewController;
+/**
+    Returns the next page view controller after the given view controller.
+ */
+- (nullable UIViewController<MBPage> *)setupController:(MBSetupController *)setupController viewControllerAfterViewController:(nullable UIViewController<MBPage> *)viewController;
 @end
 
 @protocol MBSetupControllerDelegate <NSObject>
@@ -71,3 +75,5 @@
 - (void)setupController:(MBSetupController *)setupController didShowViewController:(UIViewController<MBPage> *)viewController animated:(BOOL)animated;
 - (void)setupControllerDidFinish:(MBSetupController *)setupController;
 @end
+
+NS_ASSUME_NONNULL_END

@@ -10,7 +10,7 @@
 
 @interface MBSectionHeader : UIView
 
-@property (nonatomic, readonly) UILabel *titleLabel;
+@property (nonatomic, readonly, nullable) UILabel *titleLabel;
 
 /**
     Title label's top and bottom insets

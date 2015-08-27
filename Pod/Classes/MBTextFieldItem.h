@@ -8,12 +8,14 @@
 
 #import "MBSetupPageItem.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface MBTextFieldItem : MBSetupPageItem
 
-- (instancetype)initWithTitle:(NSString *)title text:(NSString *)text placeholder:(NSString *)placeholder;
+- (instancetype)initWithTitle:(nullable NSString *)title text:(nullable NSString *)text placeholder:(nullable NSString *)placeholder;
 
-@property (nonatomic) NSString *text;
-@property (nonatomic) NSString *placeholder;
+@property (nonatomic, nullable) NSString *text;
+@property (nonatomic, nullable) NSString *placeholder;
 
 #pragma mark - Customize Text Field Appearance
 
@@ -25,7 +27,9 @@
 
 #pragma mark - Observe Text Field Changes
 
-@property (nonatomic, copy) void(^textDidChangeBlock)(MBTextFieldItem *item);
-@property (nonatomic, copy) void(^textDidEndEditingBlock)(MBTextFieldItem *item);
+@property (nonatomic, copy, nullable) void(^textDidChangeBlock)(MBTextFieldItem *item);
+@property (nonatomic, copy, nullable) void(^textDidEndEditingBlock)(MBTextFieldItem *item);
 
 @end
+
+NS_ASSUME_NONNULL_END

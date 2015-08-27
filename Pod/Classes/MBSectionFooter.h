@@ -10,9 +10,9 @@
 
 @interface MBSectionFooter : UIView
 
-@property (nonatomic, readonly) UIButton *topButton;
-@property (nonatomic, readonly) UIImageView *imageView;
-@property (nonatomic, readonly) UILabel *titleLabel;
-@property (nonatomic, readonly) UILabel *subtitleLabel;
+@property (nonatomic, readonly, nullable) UIButton *topButton;
+@property (nonatomic, readonly, nullable) UIImageView *imageView;
+@property (nonatomic, readonly, nullable) UILabel *titleLabel;
+@property (nonatomic, readonly, nullable) UILabel *subtitleLabel;
 
 @end

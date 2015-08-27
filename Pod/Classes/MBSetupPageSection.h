@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class MBTableViewPageController;
 @class MBSetupPageSection;
 @class MBSetupPageItem;
@@ -16,37 +18,37 @@ typedef CGFloat(^MBSetupPageSectionViewHeightBlock)(UITableView *tableView, MBSe
 
 @interface MBSetupPageSection : NSObject
 
-- (instancetype)initWithTitle:(NSString *)title;
-+ (instancetype)sectionWithTitle:(NSString *)title;
+- (instancetype)initWithTitle:(nullable NSString *)title;
++ (instancetype)sectionWithTitle:(nullable NSString *)title;
 
 /**
     Receiver's title.
  */
-@property (nonatomic) NSString *title;
+@property (nonatomic, nullable) NSString *title;
 
 /**
     Block to return header view for the receiver.
  */
-@property (copy, nonatomic) UIView *(^headerViewBlock)(MBSetupPageSection *section);
+@property (copy, nonatomic, nullable) UIView *(^headerViewBlock)(MBSetupPageSection *section);
 
 /**
     Block to return header view height.
  */
-@property (copy, nonatomic) MBSetupPageSectionViewHeightBlock headerHeightBlock;
+@property (copy, nonatomic, nullable) MBSetupPageSectionViewHeightBlock headerHeightBlock;
 
 /**
     Block to return footer view for the receiver.
  */
-@property (copy, nonatomic) UIView *(^footerViewBlock)(MBSetupPageSection *section);
+@property (copy, nonatomic, nullable) UIView *(^footerViewBlock)(MBSetupPageSection *section);
 
 /**
     Block to return footer view height.
  */
-@property (copy, nonatomic) MBSetupPageSectionViewHeightBlock footerHeightBlock;
+@property (copy, nonatomic, nullable) MBSetupPageSectionViewHeightBlock footerHeightBlock;
 
 #pragma mark - Parent Controller
 
-@property (weak, nonatomic, readonly) MBTableViewPageController *parentController;
+@property (weak, nonatomic, readonly, nullable) MBTableViewPageController *parentController;
 
 #pragma mark - Providing Section Items
 
@@ -67,3 +69,5 @@ typedef CGFloat(^MBSetupPageSectionViewHeightBlock)(UITableView *tableView, MBSe
 - (void)deselectItem:(MBSetupPageItem *)item animated:(BOOL)animated;
 
 @end
+
+NS_ASSUME_NONNULL_END

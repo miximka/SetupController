@@ -10,8 +10,8 @@
 
 @interface MBFinishPageController : MBBasePageController
 
-@property (nonatomic, readonly) UIImageView *imageView;
-@property (nonatomic, readonly) UILabel *titleLabel;
-@property (nonatomic, readonly) UIButton *button;
+@property (nonatomic, readonly, nullable) UIImageView *imageView;
+@property (nonatomic, readonly, nullable) UILabel *titleLabel;
+@property (nonatomic, readonly, nullable) UIButton *button;
 
 @end

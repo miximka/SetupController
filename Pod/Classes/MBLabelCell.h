@@ -9,5 +9,4 @@
 #import "MBSetupPageCell.h"
 
 @interface MBLabelCell : MBSetupPageCell
-
 @end
