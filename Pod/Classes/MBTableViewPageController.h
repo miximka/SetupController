@@ -8,12 +8,14 @@
 
 #import "MBBasePageController.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class MBSectionHeader;
 @class MBSectionFooter;
 
 @interface MBTableViewPageController : MBBasePageController <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, readonly) UITableView *tableView;
+@property (nonatomic, readonly, nullable) UITableView *tableView;
 
 #pragma mark - Customizing Appearance
 
@@ -27,11 +29,13 @@
 /**
     Convenient method to create page header view with specified title.
  */
-- (MBSectionHeader *)preparedPageHeaderViewWithTitle:(NSString *)title;
-- (MBSectionFooter *)preparedFooterViewWithImage:(UIImage *)image title:(NSString *)title subtitle:(NSString *)subtitle;
+- (MBSectionHeader *)preparedPageHeaderViewWithTitle:(nullable NSString *)title;
+- (MBSectionFooter *)preparedFooterViewWithImage:(nullable UIImage *)image title:(nullable NSString *)title subtitle:(nullable NSString *)subtitle;
 
 #pragma mark - Uer Input Validation
 
 - (BOOL)validate;
 
 @end
+
+NS_ASSUME_NONNULL_END

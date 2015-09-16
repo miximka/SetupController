@@ -10,7 +10,7 @@
 
 @interface MBTextFieldCell : MBSetupPageCell
 
-@property (nonatomic, readonly) UILabel *titleLabel;
-@property (nonatomic, readonly) UITextField *textField;
+@property (nonatomic, readonly, nullable) UILabel *titleLabel;
+@property (nonatomic, readonly, nullable) UITextField *textField;
 
 @end

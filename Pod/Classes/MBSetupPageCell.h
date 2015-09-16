@@ -12,7 +12,7 @@
 
 @interface MBSetupPageCell : UITableViewCell
 
-@property (nonatomic) MBSetupPageItem *item;
+@property (nonatomic, nullable) MBSetupPageItem *item;
 
 /**
     Called just after the cell is created.

@@ -10,7 +10,7 @@
 
 @interface MBProgressPageController : MBBasePageController
 
-@property (nonatomic, readonly) UIActivityIndicatorView *activityIndicator;
-@property (nonatomic, readonly) UILabel *titleLabel;
+@property (nonatomic, readonly, nullable) UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, readonly, nullable) UILabel *titleLabel;
 
 @end

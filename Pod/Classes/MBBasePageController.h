@@ -13,7 +13,7 @@
 /**
     Content view of the receiver. Content view is the default superview for content dispayed by the receiver's view.
  */
-@property (nonatomic, readonly) UIView *contentView;
+@property (nonatomic, readonly, nullable) UIView *contentView;
 
 #pragma mark - Customizing Appearance
 
@@ -35,7 +35,7 @@
 /**
     Bar button item presented on the right of the navigation bar when receiver is on the top of the setup controller stack.
  */
-@property (nonatomic) UIBarButtonItem *nextButtonItem;
+@property (nonatomic, nullable) UIBarButtonItem *nextButtonItem;
 
 /**
     A Boolean value that determines whether the next button is hidden.
