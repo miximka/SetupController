@@ -1,5 +1,5 @@
 PODS:
-  - SetupController (0.2.0)
+  - SetupController (0.2.1)
 
 DEPENDENCIES:
   - SetupController (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SetupController: eb9fd562787ae51c8cf5db69e339515558fa3d9f
+  SetupController: d0b76727e36ea30b35bdd1e2c731f2855838599e
 
-COCOAPODS: 0.36.4
+COCOAPODS: 0.38.2
