@@ -3,6 +3,7 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
+osx_image: xcode7
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
@@ -13,3 +14,4 @@ install:
 script:
 - set -o pipefail && xcodebuild test -workspace Example/SetupController.xcworkspace -scheme SetupController-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
+
