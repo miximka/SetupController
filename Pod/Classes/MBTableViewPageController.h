@@ -21,6 +21,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic) BOOL useAutosizingCells;
 
+/**
+    Apple does not allow per-cell separator customization, so we have to do it manually.
+    One then completely disables the standard UITableView separators and returns something
+    different than UITableViewCellSeparatorStyleNone for this property to add custom separator view in the cells.
+ */
+@property (nonatomic, readonly) UITableViewCellSeparatorStyle customCellSeparatorStyle;
+
 #pragma mark - Providing Table View Content
 
 @property (nonatomic) NSArray *sections;

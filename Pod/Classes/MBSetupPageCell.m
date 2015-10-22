@@ -10,6 +10,10 @@
 #import "MBSetupPageItem.h"
 #import "MBSetupControllerUtilities.h"
 
+@interface MBSetupPageCell ()
+@property (nonatomic) UIView *separatorView;
+@end
+
 @implementation MBSetupPageCell
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
@@ -45,7 +49,14 @@
     [self setItem:nil];
 }
 
-- (void)addSeparatorView
+- (void)setCustomSeparatorStyle:(UITableViewCellSeparatorStyle)customSeparatorStyle {
+    if (_customSeparatorStyle != customSeparatorStyle) {
+        _customSeparatorStyle = customSeparatorStyle;
+        [self updateSeparatorView];
+    }
+}
+
+- (UIView *)addSeparatorView
 {
     if (!self.backgroundView) {
         UIView *view = [[UIView alloc] initWithFrame:self.bounds];
@@ -61,11 +72,21 @@
     
     [separatorSuperview addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[separatorView]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(separatorView)]];
     [separatorSuperview addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[separatorView(0.5)]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(separatorView)]];
+    
+    return separatorView;
+}
+
+- (void)updateSeparatorView
+{
+    [_separatorView removeFromSuperview];
+    if ([self customSeparatorStyle] != UITableViewCellSeparatorStyleNone) {
+        _separatorView = [self addSeparatorView];
+    }
 }
 
 - (void)_cellDidLoad
 {
-    [self addSeparatorView];
+    [self updateSeparatorView];
     
     if ([MBSetupControllerUtilities isAutosizingTableViewCellsSupported]) {
         //Add minimal height constraint, to prevent that tableview complains about possible zero height

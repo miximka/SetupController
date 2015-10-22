@@ -97,6 +97,14 @@
 
     backupSection.items = @[backupItem1, backupItem2];
     self.sections = @[headerSection, backupSection];
+    
+    // Use table view separators
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleSingleLine];
+}
+
+- (UITableViewCellSeparatorStyle)customCellSeparatorStyle {
+    // Disable custom separators
+    return UITableViewCellSeparatorStyleNone;
 }
 
 - (BOOL)validate

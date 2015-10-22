@@ -13,6 +13,7 @@
 @interface MBSetupPageCell : UITableViewCell
 
 @property (nonatomic, nullable) MBSetupPageItem *item;
+@property (nonatomic) UITableViewCellSeparatorStyle customSeparatorStyle;
 
 /**
     Called just after the cell is created.

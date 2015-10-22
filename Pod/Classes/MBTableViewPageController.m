@@ -133,6 +133,10 @@
     return footer;
 }
 
+- (UITableViewCellSeparatorStyle)customCellSeparatorStyle {
+    return UITableViewCellSeparatorStyleSingleLine;
+}
+
 #pragma mark - Providing Table View Content
 
 - (NSArray *)sections
@@ -216,7 +220,9 @@
         cell = item.createCellBlock(item);
     }
     
+    cell.customSeparatorStyle = [self customCellSeparatorStyle];
     item.configureCellBlock(item, cell);
+    
     [cell _cellWillAppear];
     
     return cell;
