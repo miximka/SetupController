@@ -39,6 +39,10 @@
     return self;
 }
 
+- (instancetype)initWithTitle:(NSString *)title {
+    return [self initWithTitle:title detail:nil style:UITableViewCellStyleDefault];
+}
+
 - (NSString *)cellIdentifier
 {
     return @"MBLabelItem";
