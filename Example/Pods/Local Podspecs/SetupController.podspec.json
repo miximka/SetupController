@@ -1,6 +1,6 @@
 {
   "name": "SetupController",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "summary": "MBSetupController can present a sequence of dialog views that lead the user through a series of steps like a wizard or a setup assistant.",
   "description": "A MBSetupController is a subclass of UIViewController controller that acts like a wizard or setup assistant to present a sequence of dialog views that lead the user through a series of steps.\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
   "homepage": "https://github.com/miximka/SetupController",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/miximka/SetupController.git",
-    "tag": "0.2.1"
+    "tag": "0.3.0"
   },
   "social_media_url": "https://twitter.com/miximka",
   "platforms": {
