@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0E0F7F2A606A8920CA7FD24A'
+               BlueprintIdentifier = 'D7400763AB1FB8A174B5DDB7'
                BlueprintName = 'SetupController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSetupController.a'>
