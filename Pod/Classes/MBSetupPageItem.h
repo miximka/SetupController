@@ -48,6 +48,11 @@ typedef CGFloat(^MBSetupPageItemCellHeightBlock)(UITableView *tableView, MBSetup
 @property (copy, nonatomic, nullable) void(^configureCellBlock)(MBSetupPageItem *item, MBSetupPageCell *cell);
 
 /**
+ *  Block called after configureCellBlock.
+ */
+@property (copy, nonatomic, nullable) void(^afterConfigureCellBlock)(MBSetupPageItem *item, MBSetupPageCell *cell);
+
+/**
     Block to return height of the cell.
  */
 @property (copy, nonatomic, nullable) MBSetupPageItemCellHeightBlock cellHeightBlock;

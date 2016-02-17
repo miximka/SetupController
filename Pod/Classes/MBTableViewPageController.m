@@ -223,6 +223,10 @@
     cell.customSeparatorStyle = [self customCellSeparatorStyle];
     item.configureCellBlock(item, cell);
     
+    if (item.afterConfigureCellBlock) {
+        item.afterConfigureCellBlock(item, cell);
+    }
+    
     [cell _cellWillAppear];
     
     return cell;
@@ -314,6 +318,10 @@
     
     item.configureCellBlock(item, cell);
     
+    if (item.afterConfigureCellBlock) {
+        item.afterConfigureCellBlock(item, cell);
+    }
+
     CGFloat height = 0;
     
     if (cell) {
