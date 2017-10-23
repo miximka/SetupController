@@ -52,6 +52,14 @@
     }
 }
 
+- (void)insertItem:(MBSetupPageItem *)item atIndex:(NSInteger)index
+{
+    NSInteger sectionIndex = [self.parentController.sections indexOfObject:self];
+    [_mutableItems insertObject:item atIndex:index];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:index inSection:sectionIndex];
+    [self.parentController.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
+
 - (NSIndexPath *)indexPathForItem:(MBSetupPageItem *)item
 {
     NSInteger sectionIndex = [self.parentController.sections indexOfObject:self];

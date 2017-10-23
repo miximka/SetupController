@@ -55,7 +55,9 @@ typedef CGFloat(^MBSetupPageSectionViewHeightBlock)(UITableView *tableView, MBSe
 /**
     Section row items.
  */
-@property (nonatomic) NSArray *items;
+@property (nonatomic) NSArray<MBSetupPageItem *> *items;
+
+- (void)insertItem:(MBSetupPageItem *)item atIndex:(NSInteger)index;
 
 #pragma mark - Validation
 
