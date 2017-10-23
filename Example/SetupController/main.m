@@ -2,12 +2,11 @@
 //  main.m
 //  SetupController
 //
-// Created by Maksim Bauer on 26/04/14.
-//  Copyright (c) 2014 Maksim Bauer. All rights reserved.
+//  Created by Maksim Bauer on 10/23/2017.
+//  Copyright (c) 2017 Maksim Bauer. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
+@import UIKit;
 #import "MBAppDelegate.h"
 
 int main(int argc, char * argv[])

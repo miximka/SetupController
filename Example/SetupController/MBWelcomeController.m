@@ -26,10 +26,7 @@
     [super viewDidLoad];
     
     self.imageView.image = [UIImage imageNamed:@"SampleImage"];
-    
-    NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
-    NSString *appName = infoDict[(NSString *)kCFBundleNameKey];
-    self.titleLabel.text = [NSString stringWithFormat:@"Welcome to %@", appName];
+    self.titleLabel.text = [NSString stringWithFormat:@"Welcome to SetupController"];
     
     [self.button setTitle:@"Get Started" forState:UIControlStateNormal];
     [self.button addTarget:self action:@selector(getStarted:) forControlEvents:UIControlEventTouchUpInside];

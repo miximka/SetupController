@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double Pods_SetupController_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SetupController_ExampleVersionString[];
+
