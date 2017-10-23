@@ -22,7 +22,7 @@ A MBSetupController is a subclass of UIViewController controller that acts like 
                        DESC
 
   s.homepage         = 'https://github.com/miximka/SetupController'
-  s.screenshots     = 'Images/iPhonePortrait.png', 'Images/iPadLandscape.png'
+  # s.screenshots      = 'Images/iPhonePortrait.png', 'Images/iPadLandscape.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maksim Bauer' => 'miximka@gmail.com' }
   s.source           = { :git => 'https://github.com/miximka/SetupController.git', :tag => s.version.to_s }
