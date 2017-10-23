@@ -14,7 +14,7 @@ It has been inspired by the iOS Setup.app application which is presented to user
 
 ## Features
 
-- Support for universal iOS7/iOS8 applications with portrait and landscape orientations.
+- Support for universal iOS8 applications with portrait and landscape orientations.
 - A couple of predefined page view controllers like `MBTableViewPageController`, `MBProgressPageController` or `MBFinishPageController` offers a lot of functionality out-of-the-box to quickly build pages for `MBSetupController`.
 - Predefined `MBTableViewPageController` use blocks instead of delegate calls to keep the table view's section code in one place, supports autolayout, and autosizing cells (iOS8 feature).
 
@@ -27,7 +27,7 @@ To run it, clone the repo, and run `pod install` from the Example directory firs
 
 | Minimum iOS Target | Notes |
 |:-:|:-:|
-| iOS 7 | - |
+| iOS 8 | - |
 
 ## Installation
 
