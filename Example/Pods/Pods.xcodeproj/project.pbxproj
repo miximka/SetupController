@@ -7,49 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		067C455E2994E496A7EB227B3DC69DA8 /* MBBasePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B372DA96866AA215D8144EE85ED81 /* MBBasePageController.m */; };
-		09E998EADAD7821CF270941D638E7EF2 /* MBSetupPageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C3CBD9CA89BE57EC5EC560A9F1FC69 /* MBSetupPageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AD940CF71886A00FD616FB4B7B633B1 /* MBTableViewPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1E6BBBDC60C827AEFEC741B9B8385 /* MBTableViewPageController.m */; };
-		19460809CAB113E90512222B346CE609 /* MBTableViewPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = F39D6D8BEF7A3E17DBB67AA7FB3D38FB /* MBTableViewPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E11EFF0543F9159C72C1FA23D00AE75 /* MBSetupControllerUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC50A11E06847E65D0F118A7043B747 /* MBSetupControllerUtilities.m */; };
-		234E8108D94DE11B257536EBA9320071 /* MBSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 829EE33652F009ACF10471F71E2BD99D /* MBSwitchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3600293F5D6353C70341619BD2942462 /* MBProgressPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B81AFC72C932F2719F35F39BAE6BDCA /* MBProgressPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		394B35CA74C2241D8002768FF10BF8DF /* MBTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED223F2AA36B0EC57C23207A7836B5 /* MBTextFieldCell.m */; };
-		3BAF4C589E2C9C45A0A6B4BEA3FC009B /* MBLabelItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF59BB33370DD427DEA3DB2A380643C /* MBLabelItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43C42F375641DD347DC719CF250FF3E4 /* MBTextFieldItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EAF086C8FDE6600EA08DE69DA8770B2 /* MBTextFieldItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4466DE2ADA85903AA4F84CFDC7F3633B /* MBSetupPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65258891307D02655A9B50665ECFFBD7 /* MBSetupPageItem.m */; };
-		62B992A57113A772FD10297707031A06 /* MBSetupController.h in Headers */ = {isa = PBXBuildFile; fileRef = D14F73F70D93E249F402669B40E4D9CA /* MBSetupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62DDCCCD756E8C13C4B2C7DF1485D59C /* SetupController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AA79390E0924EA67B36657E75589DE /* SetupController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		707E05B0EE339832BD9C280EB3F606AF /* Pods-SetupController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84584CCE63644FD5C2C77D3A0D2D5A17 /* Pods-SetupController_Example-dummy.m */; };
-		713594B976522897114CD5CF8FE94808 /* MBSwitchItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B3FEE81D4C234437865F85471225A19C /* MBSwitchItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		067C455E2994E496A7EB227B3DC69DA8 /* MBBasePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9175D5CFA31D70430B97FD31BCD97C /* MBBasePageController.m */; };
+		09E998EADAD7821CF270941D638E7EF2 /* MBSetupPageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E014689C52D8A16EF18FB98B5F34272 /* MBSetupPageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD940CF71886A00FD616FB4B7B633B1 /* MBTableViewPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405AC79AF0B2ADBDE682A3617EBB45BD /* MBTableViewPageController.m */; };
+		19460809CAB113E90512222B346CE609 /* MBTableViewPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CE011F8F695B910D5EE2875943F01B /* MBTableViewPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E11EFF0543F9159C72C1FA23D00AE75 /* MBSetupControllerUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D5DEB1816B56E80D45DE4FAA96757C /* MBSetupControllerUtilities.m */; };
+		234E8108D94DE11B257536EBA9320071 /* MBSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 320BC587D658205A9D7815DAF3F4943F /* MBSwitchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3600293F5D6353C70341619BD2942462 /* MBProgressPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 345B9E0AD3A2223E2E9DBB6FB9766AD3 /* MBProgressPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		394B35CA74C2241D8002768FF10BF8DF /* MBTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D672749F3CA9C09A2AD64547FAAFF21 /* MBTextFieldCell.m */; };
+		3BAF4C589E2C9C45A0A6B4BEA3FC009B /* MBLabelItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5364216ABE516FC43FE5F02D1A7608D2 /* MBLabelItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C42F375641DD347DC719CF250FF3E4 /* MBTextFieldItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FE1907F5CD2DA9A042F272E6D7E845 /* MBTextFieldItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4466DE2ADA85903AA4F84CFDC7F3633B /* MBSetupPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5990A53D8DC616EF65700A4385E72 /* MBSetupPageItem.m */; };
+		62B992A57113A772FD10297707031A06 /* MBSetupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 161FB6B9A860218A572E4FE639BA3556 /* MBSetupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62DDCCCD756E8C13C4B2C7DF1485D59C /* SetupController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D522A15CE832A108855A8234820CFC /* SetupController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707E05B0EE339832BD9C280EB3F606AF /* Pods-SetupController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19112D84AB7C61D4E6ACD3943EC09FA0 /* Pods-SetupController_Example-dummy.m */; };
+		713594B976522897114CD5CF8FE94808 /* MBSwitchItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9936D344378A2A8F80C687C3D072EE /* MBSwitchItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71D8E9242D98DACEA13949FB94ADE84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7B3306AE70100B4BFE75801A5942F219 /* MBSectionFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 113622FDA6AA91313D3E89FF73E824DB /* MBSectionFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DD4812D3D513E80219CF65FBB12DA43 /* MBSetupControllerUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 502F63340A60E29C43E1DF9D399E8F5F /* MBSetupControllerUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85B047A5CBC70CEBA81B0706E4FBEAAB /* MBLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E865968E0469C85C9ED7EE89FA6EB /* MBLabelItem.m */; };
-		87ED6BFB4161EC612A0F0CF17EC2E1BB /* SetupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437D67A9D16F9A9424C4F6CF63DD112 /* SetupController-dummy.m */; };
-		8C786219B40D1AC59A32055C4440A196 /* MBLabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7931EFE9493694EBE65D2ACE68E03C /* MBLabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98BC5AC51CF16BFF7A5C838DE8943384 /* Pods-SetupController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7F6A035A132410631FFDEE754A3C92 /* Pods-SetupController_Tests-dummy.m */; };
-		99319832B1406F5A5A579EE53EE14D38 /* MBSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF37793CCDADC15C35F517415CFAD6D4 /* MBSectionFooter.m */; };
+		7B3306AE70100B4BFE75801A5942F219 /* MBSectionFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B94CBEE88FFBFE7E4458974A02A6B94D /* MBSectionFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD4812D3D513E80219CF65FBB12DA43 /* MBSetupControllerUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D52B975949D65DD1384B5203EACE06C /* MBSetupControllerUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B047A5CBC70CEBA81B0706E4FBEAAB /* MBLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAD3417A260BC56DBF600AB9F38A555 /* MBLabelItem.m */; };
+		87ED6BFB4161EC612A0F0CF17EC2E1BB /* SetupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D33077766FDBCF4A3345CA84750F78C /* SetupController-dummy.m */; };
+		8C786219B40D1AC59A32055C4440A196 /* MBLabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8038D2B910EBAC4D8D81810FED11D2 /* MBLabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BC5AC51CF16BFF7A5C838DE8943384 /* Pods-SetupController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A522DDCF0D9499C40E76FA131E66C30 /* Pods-SetupController_Tests-dummy.m */; };
+		99319832B1406F5A5A579EE53EE14D38 /* MBSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF31C4A62BD4A23AFF6ED6553EDF4AB /* MBSectionFooter.m */; };
 		9D60DC23F0104ED4EF09FD3D88120E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A155E38560BE9994AA7270878920EBB4 /* MBSetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBA35015B5BEF243B79096269FCCC7 /* MBSetupController.m */; };
-		AABCB6456A705363962ED5387309507A /* MBSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AF95B24BB1605313F0ACAC6A550C8B5D /* MBSwitchItem.m */; };
-		AD422CD74B6FE56E9B5B8FB7B9AED89C /* MBSetupPageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 346F57FBFEA60885CE6CF5C373B19F62 /* MBSetupPageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1CB7631B7BC14FE55358C721E9D4E54 /* MBSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C0231F93740C8715808E52DF66B9A4DB /* MBSectionHeader.m */; };
-		B516287BBD178BDF66BD5F317E48C90B /* MBBasePageController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE067EDA66C8AAF5A026EC9B40E6E706 /* MBBasePageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B54A6955BE86CE02B3D1853C7B1B0CC5 /* MBLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C18D3B22B835B668A8D3B9C40E74E62 /* MBLabelCell.m */; };
-		BC65CCE8EB792FBC176FAE028C59717D /* MBProgressPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02D8B64836E1D5B0A7647B946F919A /* MBProgressPageController.m */; };
-		C19BE7C6848718F64CFA2863913C871C /* MBSetupPageSection.h in Headers */ = {isa = PBXBuildFile; fileRef = CE25432254EB89028906BE5CCF760CA2 /* MBSetupPageSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4D8FFC4FA178E4097296B577AFCC60D /* MBTextFieldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 162602242DAE66B0C0D3D1377F718FA5 /* MBTextFieldItem.m */; };
-		C579F5825909D5F765E5D6929083E2A7 /* MBSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1F17A6BF5A2080717497FE8E54483D /* MBSwitchCell.m */; };
+		A155E38560BE9994AA7270878920EBB4 /* MBSetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44060A4AE9E115D59D2C72699DD86369 /* MBSetupController.m */; };
+		AABCB6456A705363962ED5387309507A /* MBSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3FF021A9DEF8808BECBC11B928B3C1 /* MBSwitchItem.m */; };
+		AD422CD74B6FE56E9B5B8FB7B9AED89C /* MBSetupPageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 64239A76FA8450297ABF5DDF9F2F8B68 /* MBSetupPageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CB7631B7BC14FE55358C721E9D4E54 /* MBSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 11455BB66976D9A7BAB47F96CC1C84B2 /* MBSectionHeader.m */; };
+		B516287BBD178BDF66BD5F317E48C90B /* MBBasePageController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5074FA873DF6552B6CE48B808C9B214 /* MBBasePageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54A6955BE86CE02B3D1853C7B1B0CC5 /* MBLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B26BE20ACB456231570A2A1B7529636 /* MBLabelCell.m */; };
+		BC65CCE8EB792FBC176FAE028C59717D /* MBProgressPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8872BE8AB67F7674DA499993D043B3DD /* MBProgressPageController.m */; };
+		C19BE7C6848718F64CFA2863913C871C /* MBSetupPageSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 496E4A5C59C9966376D67666C374FDE9 /* MBSetupPageSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D8FFC4FA178E4097296B577AFCC60D /* MBTextFieldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6132B36055A9CA08E6F52971386AC81C /* MBTextFieldItem.m */; };
+		C579F5825909D5F765E5D6929083E2A7 /* MBSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B38FB1A6B8885181270B6987871767 /* MBSwitchCell.m */; };
 		D4576D62D4BAB2C0EB043ABEA9D450E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D4974E621DAA666ACCFBF595B4AADED1 /* MBSetupPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6EEEF95DD08912FB626CEF575EC8D3 /* MBSetupPageCell.m */; };
-		D5113A1C4A2AED88986B8C9D69BDEA09 /* MBTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E745C69A144F87F1E31BE755A61B29 /* MBTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E545C3DB3EBA9D67092666A984C3E566 /* MBFinishPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73405ACC95E330B8BEA20E77358876DF /* MBFinishPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E729AD94C1A259BEEFF812DCC0CB48EE /* Pods-SetupController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39649F98E6D2B79FDCF3D2C2B21EA22B /* Pods-SetupController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDB0C19AABE64F9C65BC7C86B3A6AB93 /* MBSectionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6C4A4FB342DCEE8AB55D3FFD1D54CE /* MBSectionHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F58605F9440A39B0A67D68FD2F356A8B /* MBFinishPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B55BCDF899F57E4462361799243EB /* MBFinishPageController.m */; };
-		FC5739F215D2C3B2819BC3905095BA87 /* MBSetupPageSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DD97D74FFEC184F14FFF67C56B1D29 /* MBSetupPageSection.m */; };
-		FECFD8A31C7102E32D1752D6756FE872 /* Pods-SetupController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 215CF72083B8D7E13A1B8CF33DB99C2B /* Pods-SetupController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4974E621DAA666ACCFBF595B4AADED1 /* MBSetupPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BDDF14A8EA23917535F81475ECEC3A /* MBSetupPageCell.m */; };
+		D5113A1C4A2AED88986B8C9D69BDEA09 /* MBTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C8B2F1E409093AE9395103DB8C6DF1 /* MBTextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E545C3DB3EBA9D67092666A984C3E566 /* MBFinishPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5A51719D1C684E34683FDB4CC8A068 /* MBFinishPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E729AD94C1A259BEEFF812DCC0CB48EE /* Pods-SetupController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1524B53D37DF5F2B82C76AEAD9A266C3 /* Pods-SetupController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDB0C19AABE64F9C65BC7C86B3A6AB93 /* MBSectionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 94DC25A64997B906DF6CE90122D3DBD0 /* MBSectionHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F58605F9440A39B0A67D68FD2F356A8B /* MBFinishPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4D08586E02376CB2F3D7527649FC93 /* MBFinishPageController.m */; };
+		FC5739F215D2C3B2819BC3905095BA87 /* MBSetupPageSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3634C6B9D27E1B5B9CAB059E8875DDBC /* MBSetupPageSection.m */; };
+		FECFD8A31C7102E32D1752D6756FE872 /* Pods-SetupController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF650D66E5B65A7FA94E6337D9E4B9C8 /* Pods-SetupController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,71 +63,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0019C5005C8582B71804958C660DC054 /* SetupController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SetupController.modulemap; sourceTree = "<group>"; };
-		113622FDA6AA91313D3E89FF73E824DB /* MBSectionFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSectionFooter.h; path = SetupController/Classes/MBSectionFooter.h; sourceTree = "<group>"; };
-		15E5286500063DA812EDCEB93896F414 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		162602242DAE66B0C0D3D1377F718FA5 /* MBTextFieldItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBTextFieldItem.m; path = SetupController/Classes/MBTextFieldItem.m; sourceTree = "<group>"; };
-		17C3CBD9CA89BE57EC5EC560A9F1FC69 /* MBSetupPageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupPageItem.h; path = SetupController/Classes/MBSetupPageItem.h; sourceTree = "<group>"; };
-		19C1ED63E0054118DF06F551DC014D9A /* Pods-SetupController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SetupController_Tests.modulemap"; sourceTree = "<group>"; };
-		1B1B55BCDF899F57E4462361799243EB /* MBFinishPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBFinishPageController.m; path = SetupController/Classes/MBFinishPageController.m; sourceTree = "<group>"; };
-		1C18D3B22B835B668A8D3B9C40E74E62 /* MBLabelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLabelCell.m; path = SetupController/Classes/MBLabelCell.m; sourceTree = "<group>"; };
-		215CF72083B8D7E13A1B8CF33DB99C2B /* Pods-SetupController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SetupController_Example-umbrella.h"; sourceTree = "<group>"; };
-		2D7931EFE9493694EBE65D2ACE68E03C /* MBLabelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLabelCell.h; path = SetupController/Classes/MBLabelCell.h; sourceTree = "<group>"; };
-		33309F20952574859DD0F797E4C6D6E6 /* Pods-SetupController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Tests-resources.sh"; sourceTree = "<group>"; };
-		346F57FBFEA60885CE6CF5C373B19F62 /* MBSetupPageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupPageCell.h; path = SetupController/Classes/MBSetupPageCell.h; sourceTree = "<group>"; };
-		356E865968E0469C85C9ED7EE89FA6EB /* MBLabelItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLabelItem.m; path = SetupController/Classes/MBLabelItem.m; sourceTree = "<group>"; };
-		365A3857C09F87667D8279196881AD65 /* Pods-SetupController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SetupController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39649F98E6D2B79FDCF3D2C2B21EA22B /* Pods-SetupController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SetupController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		47DD97D74FFEC184F14FFF67C56B1D29 /* MBSetupPageSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupPageSection.m; path = SetupController/Classes/MBSetupPageSection.m; sourceTree = "<group>"; };
-		48E745C69A144F87F1E31BE755A61B29 /* MBTextFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBTextFieldCell.h; path = SetupController/Classes/MBTextFieldCell.h; sourceTree = "<group>"; };
-		4CD1E6BBBDC60C827AEFEC741B9B8385 /* MBTableViewPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBTableViewPageController.m; path = SetupController/Classes/MBTableViewPageController.m; sourceTree = "<group>"; };
-		4DA0242157A08885311B4914A6577BB6 /* SetupController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SetupController.xcconfig; sourceTree = "<group>"; };
-		4E6C4A4FB342DCEE8AB55D3FFD1D54CE /* MBSectionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSectionHeader.h; path = SetupController/Classes/MBSectionHeader.h; sourceTree = "<group>"; };
-		4EAF086C8FDE6600EA08DE69DA8770B2 /* MBTextFieldItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBTextFieldItem.h; path = SetupController/Classes/MBTextFieldItem.h; sourceTree = "<group>"; };
-		502F63340A60E29C43E1DF9D399E8F5F /* MBSetupControllerUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupControllerUtilities.h; path = SetupController/Classes/MBSetupControllerUtilities.h; sourceTree = "<group>"; };
-		54A5884BF713170C3B72D733B2090B0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BED223F2AA36B0EC57C23207A7836B5 /* MBTextFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBTextFieldCell.m; path = SetupController/Classes/MBTextFieldCell.m; sourceTree = "<group>"; };
-		65258891307D02655A9B50665ECFFBD7 /* MBSetupPageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupPageItem.m; path = SetupController/Classes/MBSetupPageItem.m; sourceTree = "<group>"; };
+		0D5A51719D1C684E34683FDB4CC8A068 /* MBFinishPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBFinishPageController.h; path = SetupController/Classes/MBFinishPageController.h; sourceTree = "<group>"; };
+		11455BB66976D9A7BAB47F96CC1C84B2 /* MBSectionHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSectionHeader.m; path = SetupController/Classes/MBSectionHeader.m; sourceTree = "<group>"; };
+		1524B53D37DF5F2B82C76AEAD9A266C3 /* Pods-SetupController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SetupController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		161FB6B9A860218A572E4FE639BA3556 /* MBSetupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupController.h; path = SetupController/Classes/MBSetupController.h; sourceTree = "<group>"; };
+		19112D84AB7C61D4E6ACD3943EC09FA0 /* Pods-SetupController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SetupController_Example-dummy.m"; sourceTree = "<group>"; };
+		1A61F468E2D1F59C70E4148EF55F02AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240F98F8D7F6502B2C6679CEB4B71334 /* Pods-SetupController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26C8B2F1E409093AE9395103DB8C6DF1 /* MBTextFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBTextFieldCell.h; path = SetupController/Classes/MBTextFieldCell.h; sourceTree = "<group>"; };
+		2DA5990A53D8DC616EF65700A4385E72 /* MBSetupPageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupPageItem.m; path = SetupController/Classes/MBSetupPageItem.m; sourceTree = "<group>"; };
+		320BC587D658205A9D7815DAF3F4943F /* MBSwitchCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSwitchCell.h; path = SetupController/Classes/MBSwitchCell.h; sourceTree = "<group>"; };
+		345B9E0AD3A2223E2E9DBB6FB9766AD3 /* MBProgressPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressPageController.h; path = SetupController/Classes/MBProgressPageController.h; sourceTree = "<group>"; };
+		3634C6B9D27E1B5B9CAB059E8875DDBC /* MBSetupPageSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupPageSection.m; path = SetupController/Classes/MBSetupPageSection.m; sourceTree = "<group>"; };
+		366B32F8523E6047CD4889DB5E358C03 /* Pods-SetupController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SetupController_Example.modulemap"; sourceTree = "<group>"; };
+		3B26BE20ACB456231570A2A1B7529636 /* MBLabelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLabelCell.m; path = SetupController/Classes/MBLabelCell.m; sourceTree = "<group>"; };
+		405AC79AF0B2ADBDE682A3617EBB45BD /* MBTableViewPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBTableViewPageController.m; path = SetupController/Classes/MBTableViewPageController.m; sourceTree = "<group>"; };
+		44060A4AE9E115D59D2C72699DD86369 /* MBSetupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupController.m; path = SetupController/Classes/MBSetupController.m; sourceTree = "<group>"; };
+		496E4A5C59C9966376D67666C374FDE9 /* MBSetupPageSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupPageSection.h; path = SetupController/Classes/MBSetupPageSection.h; sourceTree = "<group>"; };
+		49EF2CB1A0043F7F8BA9DF402217E6B8 /* Pods-SetupController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A522DDCF0D9499C40E76FA131E66C30 /* Pods-SetupController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SetupController_Tests-dummy.m"; sourceTree = "<group>"; };
+		4C58A723D25E19AB83A590309EFD4489 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C8038D2B910EBAC4D8D81810FED11D2 /* MBLabelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLabelCell.h; path = SetupController/Classes/MBLabelCell.h; sourceTree = "<group>"; };
+		4DC8EA49241E3FB0ED636DCB9704292D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5364216ABE516FC43FE5F02D1A7608D2 /* MBLabelItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLabelItem.h; path = SetupController/Classes/MBLabelItem.h; sourceTree = "<group>"; };
+		54E63CAB177FB631FB6D07B8A35BDB35 /* Pods-SetupController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Tests-resources.sh"; sourceTree = "<group>"; };
+		5B9175D5CFA31D70430B97FD31BCD97C /* MBBasePageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBBasePageController.m; path = SetupController/Classes/MBBasePageController.m; sourceTree = "<group>"; };
+		5CAD3417A260BC56DBF600AB9F38A555 /* MBLabelItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLabelItem.m; path = SetupController/Classes/MBLabelItem.m; sourceTree = "<group>"; };
+		5D672749F3CA9C09A2AD64547FAAFF21 /* MBTextFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBTextFieldCell.m; path = SetupController/Classes/MBTextFieldCell.m; sourceTree = "<group>"; };
+		5DFED08F97CA61F9B1CE0368F44836C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E014689C52D8A16EF18FB98B5F34272 /* MBSetupPageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupPageItem.h; path = SetupController/Classes/MBSetupPageItem.h; sourceTree = "<group>"; };
+		6132B36055A9CA08E6F52971386AC81C /* MBTextFieldItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBTextFieldItem.m; path = SetupController/Classes/MBTextFieldItem.m; sourceTree = "<group>"; };
+		62B38FB1A6B8885181270B6987871767 /* MBSwitchCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSwitchCell.m; path = SetupController/Classes/MBSwitchCell.m; sourceTree = "<group>"; };
+		64239A76FA8450297ABF5DDF9F2F8B68 /* MBSetupPageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupPageCell.h; path = SetupController/Classes/MBSetupPageCell.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A4B372DA96866AA215D8144EE85ED81 /* MBBasePageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBBasePageController.m; path = SetupController/Classes/MBBasePageController.m; sourceTree = "<group>"; };
-		6B0FED6E1C10E22F68138C517E6FF026 /* Pods-SetupController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6B81AFC72C932F2719F35F39BAE6BDCA /* MBProgressPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressPageController.h; path = SetupController/Classes/MBProgressPageController.h; sourceTree = "<group>"; };
-		6FF59BB33370DD427DEA3DB2A380643C /* MBLabelItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLabelItem.h; path = SetupController/Classes/MBLabelItem.h; sourceTree = "<group>"; };
-		73405ACC95E330B8BEA20E77358876DF /* MBFinishPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBFinishPageController.h; path = SetupController/Classes/MBFinishPageController.h; sourceTree = "<group>"; };
-		7437D67A9D16F9A9424C4F6CF63DD112 /* SetupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SetupController-dummy.m"; sourceTree = "<group>"; };
-		76AA79390E0924EA67B36657E75589DE /* SetupController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SetupController-umbrella.h"; sourceTree = "<group>"; };
-		829EE33652F009ACF10471F71E2BD99D /* MBSwitchCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSwitchCell.h; path = SetupController/Classes/MBSwitchCell.h; sourceTree = "<group>"; };
-		84584CCE63644FD5C2C77D3A0D2D5A17 /* Pods-SetupController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SetupController_Example-dummy.m"; sourceTree = "<group>"; };
-		90E5B26B7712AE6A50081A069FFB52E5 /* Pods-SetupController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9364847FBB7C043728B1F3BD3A175560 /* Pods-SetupController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SetupController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D33077766FDBCF4A3345CA84750F78C /* SetupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SetupController-dummy.m"; sourceTree = "<group>"; };
+		7CF31C4A62BD4A23AFF6ED6553EDF4AB /* MBSectionFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSectionFooter.m; path = SetupController/Classes/MBSectionFooter.m; sourceTree = "<group>"; };
+		7E2B0BC5A68544E64519286DBD9D0525 /* SetupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SetupController-prefix.pch"; sourceTree = "<group>"; };
+		86C25C1E6DF8C4A542A92B38103D66D5 /* Pods-SetupController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SetupController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8872BE8AB67F7674DA499993D043B3DD /* MBProgressPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressPageController.m; path = SetupController/Classes/MBProgressPageController.m; sourceTree = "<group>"; };
+		8E05CBEB5BDD28D2C9E8D8389CA5BFE2 /* Pods-SetupController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SetupController_Tests.modulemap"; sourceTree = "<group>"; };
+		8ED5E31ED5A5B265BD15168E97DD6261 /* Pods-SetupController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B43598699CC15F90CB90AC8445D3B8 /* SetupController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SetupController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DC25A64997B906DF6CE90122D3DBD0 /* MBSectionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSectionHeader.h; path = SetupController/Classes/MBSectionHeader.h; sourceTree = "<group>"; };
 		9627A43C6780DFB8279C7B31A4A6BC82 /* Pods_SetupController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SetupController_Tests.framework; path = "Pods-SetupController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CF84BBB0A9B09CF16229850CA01B309 /* Pods-SetupController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SetupController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9E7F6A035A132410631FFDEE754A3C92 /* Pods-SetupController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SetupController_Tests-dummy.m"; sourceTree = "<group>"; };
-		A94CB562BED3A58D0B9E4DCD9CD30504 /* Pods-SetupController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Example-resources.sh"; sourceTree = "<group>"; };
-		ABC5A964EF7AD56CF626C464BD2EF34B /* Pods-SetupController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AD02D8B64836E1D5B0A7647B946F919A /* MBProgressPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressPageController.m; path = SetupController/Classes/MBProgressPageController.m; sourceTree = "<group>"; };
-		AD6EEEF95DD08912FB626CEF575EC8D3 /* MBSetupPageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupPageCell.m; path = SetupController/Classes/MBSetupPageCell.m; sourceTree = "<group>"; };
-		AEC50A11E06847E65D0F118A7043B747 /* MBSetupControllerUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupControllerUtilities.m; path = SetupController/Classes/MBSetupControllerUtilities.m; sourceTree = "<group>"; };
+		98FFA91338A3719D32DE3D17BFB27CA2 /* Pods-SetupController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D52B975949D65DD1384B5203EACE06C /* MBSetupControllerUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupControllerUtilities.h; path = SetupController/Classes/MBSetupControllerUtilities.h; sourceTree = "<group>"; };
+		9F266C724A444DA483F527931E75145E /* Pods-SetupController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SetupController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5074FA873DF6552B6CE48B808C9B214 /* MBBasePageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBBasePageController.h; path = SetupController/Classes/MBBasePageController.h; sourceTree = "<group>"; };
+		A5CE011F8F695B910D5EE2875943F01B /* MBTableViewPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBTableViewPageController.h; path = SetupController/Classes/MBTableViewPageController.h; sourceTree = "<group>"; };
+		AA85E6438570262A16E912C5F2E32EDB /* Pods-SetupController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC3FF021A9DEF8808BECBC11B928B3C1 /* MBSwitchItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSwitchItem.m; path = SetupController/Classes/MBSwitchItem.m; sourceTree = "<group>"; };
 		AF5034313BD66631733DF426893B887F /* Pods_SetupController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SetupController_Example.framework; path = "Pods-SetupController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF95B24BB1605313F0ACAC6A550C8B5D /* MBSwitchItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSwitchItem.m; path = SetupController/Classes/MBSwitchItem.m; sourceTree = "<group>"; };
-		B3FEE81D4C234437865F85471225A19C /* MBSwitchItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSwitchItem.h; path = SetupController/Classes/MBSwitchItem.h; sourceTree = "<group>"; };
-		B946E2A0715BCF3003CE6C1145A0D384 /* Pods-SetupController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SetupController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C0231F93740C8715808E52DF66B9A4DB /* MBSectionHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSectionHeader.m; path = SetupController/Classes/MBSectionHeader.m; sourceTree = "<group>"; };
-		C14A363C30D328865CAF87E3AFBB921F /* Pods-SetupController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SetupController_Example.modulemap"; sourceTree = "<group>"; };
-		CE25432254EB89028906BE5CCF760CA2 /* MBSetupPageSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupPageSection.h; path = SetupController/Classes/MBSetupPageSection.h; sourceTree = "<group>"; };
-		D14F73F70D93E249F402669B40E4D9CA /* MBSetupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSetupController.h; path = SetupController/Classes/MBSetupController.h; sourceTree = "<group>"; };
-		D345E2CD7AB8D3CC07CBFEB252B429B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA369AEEE588CF3A39E43FA063577C7A /* SetupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SetupController-prefix.pch"; sourceTree = "<group>"; };
-		DD01C5CA8AD1A3F63A3B279C3DFAB263 /* Pods-SetupController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SetupController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DE067EDA66C8AAF5A026EC9B40E6E706 /* MBBasePageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBBasePageController.h; path = SetupController/Classes/MBBasePageController.h; sourceTree = "<group>"; };
-		DEF2DFC6DB3BF1CB377ABDB77B2169E5 /* Pods-SetupController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B7BDDF14A8EA23917535F81475ECEC3A /* MBSetupPageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupPageCell.m; path = SetupController/Classes/MBSetupPageCell.m; sourceTree = "<group>"; };
+		B94CBEE88FFBFE7E4458974A02A6B94D /* MBSectionFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSectionFooter.h; path = SetupController/Classes/MBSectionFooter.h; sourceTree = "<group>"; };
+		BF650D66E5B65A7FA94E6337D9E4B9C8 /* Pods-SetupController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SetupController_Example-umbrella.h"; sourceTree = "<group>"; };
+		C3FE1907F5CD2DA9A042F272E6D7E845 /* MBTextFieldItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBTextFieldItem.h; path = SetupController/Classes/MBTextFieldItem.h; sourceTree = "<group>"; };
+		C6B8968C95017063E315803440101BE2 /* Pods-SetupController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C9D9C1CE054A3BF71F2464DAD3C6D205 /* Pods-SetupController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SetupController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD9936D344378A2A8F80C687C3D072EE /* MBSwitchItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSwitchItem.h; path = SetupController/Classes/MBSwitchItem.h; sourceTree = "<group>"; };
+		D37C5F3C57426D4E1F7E09672AC1179A /* Pods-SetupController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D679F48D862617A3ED8913CEAA9E31AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D522A15CE832A108855A8234820CFC /* SetupController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SetupController-umbrella.h"; sourceTree = "<group>"; };
+		D7E47DE089097EEA145C23F8BB61AF21 /* SetupController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SetupController.modulemap; sourceTree = "<group>"; };
+		DEA613FC90F89CE7F79F4EA5B5E9CF86 /* Pods-SetupController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SetupController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E1301EFBB9361946F07BDC4D569AE4B5 /* SetupController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SetupController.framework; path = SetupController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3BBA35015B5BEF243B79096269FCCC7 /* MBSetupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupController.m; path = SetupController/Classes/MBSetupController.m; sourceTree = "<group>"; };
-		F39D6D8BEF7A3E17DBB67AA7FB3D38FB /* MBTableViewPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBTableViewPageController.h; path = SetupController/Classes/MBTableViewPageController.h; sourceTree = "<group>"; };
-		F7231CA9ED89A10722EA07A0BEE35C8D /* Pods-SetupController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SetupController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FB1F17A6BF5A2080717497FE8E54483D /* MBSwitchCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSwitchCell.m; path = SetupController/Classes/MBSwitchCell.m; sourceTree = "<group>"; };
-		FF37793CCDADC15C35F517415CFAD6D4 /* MBSectionFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSectionFooter.m; path = SetupController/Classes/MBSectionFooter.m; sourceTree = "<group>"; };
+		EF4D08586E02376CB2F3D7527649FC93 /* MBFinishPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBFinishPageController.m; path = SetupController/Classes/MBFinishPageController.m; sourceTree = "<group>"; };
+		F7D5DEB1816B56E80D45DE4FAA96757C /* MBSetupControllerUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSetupControllerUtilities.m; path = SetupController/Classes/MBSetupControllerUtilities.m; sourceTree = "<group>"; };
+		F86DDE916D804F494D07D0BF08298CD1 /* SetupController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SetupController.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B6BC4F4C9A1E8CD33130D54BD8263E6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FBC57F2DB677679829DA4EEDA0EB5FB /* SetupController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		4A17418E038517AFF447C61C9604D66B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,107 +179,78 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AFCD31097A24CB721C88898C6FAEA78 /* Development Pods */ = {
+		4FBC57F2DB677679829DA4EEDA0EB5FB /* SetupController */ = {
 			isa = PBXGroup;
 			children = (
-				6E117C79D380794DED1944035EDBBAC2 /* SetupController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6DC56593455D8BCBABAFBCC01F09E72A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0A2A7532DC3B41BB07FD95511B56200 /* Pods-SetupController_Example */,
-				B69E7270CA41947E43C15BB1F6206EB4 /* Pods-SetupController_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6E117C79D380794DED1944035EDBBAC2 /* SetupController */ = {
-			isa = PBXGroup;
-			children = (
-				DE067EDA66C8AAF5A026EC9B40E6E706 /* MBBasePageController.h */,
-				6A4B372DA96866AA215D8144EE85ED81 /* MBBasePageController.m */,
-				73405ACC95E330B8BEA20E77358876DF /* MBFinishPageController.h */,
-				1B1B55BCDF899F57E4462361799243EB /* MBFinishPageController.m */,
-				2D7931EFE9493694EBE65D2ACE68E03C /* MBLabelCell.h */,
-				1C18D3B22B835B668A8D3B9C40E74E62 /* MBLabelCell.m */,
-				6FF59BB33370DD427DEA3DB2A380643C /* MBLabelItem.h */,
-				356E865968E0469C85C9ED7EE89FA6EB /* MBLabelItem.m */,
-				6B81AFC72C932F2719F35F39BAE6BDCA /* MBProgressPageController.h */,
-				AD02D8B64836E1D5B0A7647B946F919A /* MBProgressPageController.m */,
-				113622FDA6AA91313D3E89FF73E824DB /* MBSectionFooter.h */,
-				FF37793CCDADC15C35F517415CFAD6D4 /* MBSectionFooter.m */,
-				4E6C4A4FB342DCEE8AB55D3FFD1D54CE /* MBSectionHeader.h */,
-				C0231F93740C8715808E52DF66B9A4DB /* MBSectionHeader.m */,
-				D14F73F70D93E249F402669B40E4D9CA /* MBSetupController.h */,
-				E3BBA35015B5BEF243B79096269FCCC7 /* MBSetupController.m */,
-				502F63340A60E29C43E1DF9D399E8F5F /* MBSetupControllerUtilities.h */,
-				AEC50A11E06847E65D0F118A7043B747 /* MBSetupControllerUtilities.m */,
-				346F57FBFEA60885CE6CF5C373B19F62 /* MBSetupPageCell.h */,
-				AD6EEEF95DD08912FB626CEF575EC8D3 /* MBSetupPageCell.m */,
-				17C3CBD9CA89BE57EC5EC560A9F1FC69 /* MBSetupPageItem.h */,
-				65258891307D02655A9B50665ECFFBD7 /* MBSetupPageItem.m */,
-				CE25432254EB89028906BE5CCF760CA2 /* MBSetupPageSection.h */,
-				47DD97D74FFEC184F14FFF67C56B1D29 /* MBSetupPageSection.m */,
-				829EE33652F009ACF10471F71E2BD99D /* MBSwitchCell.h */,
-				FB1F17A6BF5A2080717497FE8E54483D /* MBSwitchCell.m */,
-				B3FEE81D4C234437865F85471225A19C /* MBSwitchItem.h */,
-				AF95B24BB1605313F0ACAC6A550C8B5D /* MBSwitchItem.m */,
-				F39D6D8BEF7A3E17DBB67AA7FB3D38FB /* MBTableViewPageController.h */,
-				4CD1E6BBBDC60C827AEFEC741B9B8385 /* MBTableViewPageController.m */,
-				48E745C69A144F87F1E31BE755A61B29 /* MBTextFieldCell.h */,
-				5BED223F2AA36B0EC57C23207A7836B5 /* MBTextFieldCell.m */,
-				4EAF086C8FDE6600EA08DE69DA8770B2 /* MBTextFieldItem.h */,
-				162602242DAE66B0C0D3D1377F718FA5 /* MBTextFieldItem.m */,
-				7226060C8BB3C28D5B54DB31FA64037B /* Support Files */,
+				A5074FA873DF6552B6CE48B808C9B214 /* MBBasePageController.h */,
+				5B9175D5CFA31D70430B97FD31BCD97C /* MBBasePageController.m */,
+				0D5A51719D1C684E34683FDB4CC8A068 /* MBFinishPageController.h */,
+				EF4D08586E02376CB2F3D7527649FC93 /* MBFinishPageController.m */,
+				4C8038D2B910EBAC4D8D81810FED11D2 /* MBLabelCell.h */,
+				3B26BE20ACB456231570A2A1B7529636 /* MBLabelCell.m */,
+				5364216ABE516FC43FE5F02D1A7608D2 /* MBLabelItem.h */,
+				5CAD3417A260BC56DBF600AB9F38A555 /* MBLabelItem.m */,
+				345B9E0AD3A2223E2E9DBB6FB9766AD3 /* MBProgressPageController.h */,
+				8872BE8AB67F7674DA499993D043B3DD /* MBProgressPageController.m */,
+				B94CBEE88FFBFE7E4458974A02A6B94D /* MBSectionFooter.h */,
+				7CF31C4A62BD4A23AFF6ED6553EDF4AB /* MBSectionFooter.m */,
+				94DC25A64997B906DF6CE90122D3DBD0 /* MBSectionHeader.h */,
+				11455BB66976D9A7BAB47F96CC1C84B2 /* MBSectionHeader.m */,
+				161FB6B9A860218A572E4FE639BA3556 /* MBSetupController.h */,
+				44060A4AE9E115D59D2C72699DD86369 /* MBSetupController.m */,
+				9D52B975949D65DD1384B5203EACE06C /* MBSetupControllerUtilities.h */,
+				F7D5DEB1816B56E80D45DE4FAA96757C /* MBSetupControllerUtilities.m */,
+				64239A76FA8450297ABF5DDF9F2F8B68 /* MBSetupPageCell.h */,
+				B7BDDF14A8EA23917535F81475ECEC3A /* MBSetupPageCell.m */,
+				5E014689C52D8A16EF18FB98B5F34272 /* MBSetupPageItem.h */,
+				2DA5990A53D8DC616EF65700A4385E72 /* MBSetupPageItem.m */,
+				496E4A5C59C9966376D67666C374FDE9 /* MBSetupPageSection.h */,
+				3634C6B9D27E1B5B9CAB059E8875DDBC /* MBSetupPageSection.m */,
+				320BC587D658205A9D7815DAF3F4943F /* MBSwitchCell.h */,
+				62B38FB1A6B8885181270B6987871767 /* MBSwitchCell.m */,
+				CD9936D344378A2A8F80C687C3D072EE /* MBSwitchItem.h */,
+				AC3FF021A9DEF8808BECBC11B928B3C1 /* MBSwitchItem.m */,
+				A5CE011F8F695B910D5EE2875943F01B /* MBTableViewPageController.h */,
+				405AC79AF0B2ADBDE682A3617EBB45BD /* MBTableViewPageController.m */,
+				26C8B2F1E409093AE9395103DB8C6DF1 /* MBTextFieldCell.h */,
+				5D672749F3CA9C09A2AD64547FAAFF21 /* MBTextFieldCell.m */,
+				C3FE1907F5CD2DA9A042F272E6D7E845 /* MBTextFieldItem.h */,
+				6132B36055A9CA08E6F52971386AC81C /* MBTextFieldItem.m */,
+				8DC172311A4DB45FD50804119B4C85C9 /* Pod */,
+				DC52AD80EFA8A71B7CD27FF08F8D3C5D /* Support Files */,
 			);
 			name = SetupController;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7226060C8BB3C28D5B54DB31FA64037B /* Support Files */ = {
+		6DC56593455D8BCBABAFBCC01F09E72A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D345E2CD7AB8D3CC07CBFEB252B429B2 /* Info.plist */,
-				0019C5005C8582B71804958C660DC054 /* SetupController.modulemap */,
-				4DA0242157A08885311B4914A6577BB6 /* SetupController.xcconfig */,
-				7437D67A9D16F9A9424C4F6CF63DD112 /* SetupController-dummy.m */,
-				DA369AEEE588CF3A39E43FA063577C7A /* SetupController-prefix.pch */,
-				76AA79390E0924EA67B36657E75589DE /* SetupController-umbrella.h */,
+				DDFB4A8D4C5972B5402D59AF7C951825 /* Pods-SetupController_Example */,
+				D1D10EE4CD8291EE2952E4116C1DA0D9 /* Pods-SetupController_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SetupController";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4AFCD31097A24CB721C88898C6FAEA78 /* Development Pods */,
+				0B6BC4F4C9A1E8CD33130D54BD8263E6 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				4A17418E038517AFF447C61C9604D66B /* Products */,
 				6DC56593455D8BCBABAFBCC01F09E72A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B69E7270CA41947E43C15BB1F6206EB4 /* Pods-SetupController_Tests */ = {
+		8DC172311A4DB45FD50804119B4C85C9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				15E5286500063DA812EDCEB93896F414 /* Info.plist */,
-				19C1ED63E0054118DF06F551DC014D9A /* Pods-SetupController_Tests.modulemap */,
-				365A3857C09F87667D8279196881AD65 /* Pods-SetupController_Tests-acknowledgements.markdown */,
-				DD01C5CA8AD1A3F63A3B279C3DFAB263 /* Pods-SetupController_Tests-acknowledgements.plist */,
-				9E7F6A035A132410631FFDEE754A3C92 /* Pods-SetupController_Tests-dummy.m */,
-				6B0FED6E1C10E22F68138C517E6FF026 /* Pods-SetupController_Tests-frameworks.sh */,
-				33309F20952574859DD0F797E4C6D6E6 /* Pods-SetupController_Tests-resources.sh */,
-				39649F98E6D2B79FDCF3D2C2B21EA22B /* Pods-SetupController_Tests-umbrella.h */,
-				90E5B26B7712AE6A50081A069FFB52E5 /* Pods-SetupController_Tests.debug.xcconfig */,
-				ABC5A964EF7AD56CF626C464BD2EF34B /* Pods-SetupController_Tests.release.xcconfig */,
+				4C58A723D25E19AB83A590309EFD4489 /* LICENSE */,
+				4DC8EA49241E3FB0ED636DCB9704292D /* README.md */,
+				93B43598699CC15F90CB90AC8445D3B8 /* SetupController.podspec */,
 			);
-			name = "Pods-SetupController_Tests";
-			path = "Target Support Files/Pods-SetupController_Tests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -279,22 +261,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C0A2A7532DC3B41BB07FD95511B56200 /* Pods-SetupController_Example */ = {
+		D1D10EE4CD8291EE2952E4116C1DA0D9 /* Pods-SetupController_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				54A5884BF713170C3B72D733B2090B0C /* Info.plist */,
-				C14A363C30D328865CAF87E3AFBB921F /* Pods-SetupController_Example.modulemap */,
-				9CF84BBB0A9B09CF16229850CA01B309 /* Pods-SetupController_Example-acknowledgements.markdown */,
-				9364847FBB7C043728B1F3BD3A175560 /* Pods-SetupController_Example-acknowledgements.plist */,
-				84584CCE63644FD5C2C77D3A0D2D5A17 /* Pods-SetupController_Example-dummy.m */,
-				B946E2A0715BCF3003CE6C1145A0D384 /* Pods-SetupController_Example-frameworks.sh */,
-				A94CB562BED3A58D0B9E4DCD9CD30504 /* Pods-SetupController_Example-resources.sh */,
-				215CF72083B8D7E13A1B8CF33DB99C2B /* Pods-SetupController_Example-umbrella.h */,
-				F7231CA9ED89A10722EA07A0BEE35C8D /* Pods-SetupController_Example.debug.xcconfig */,
-				DEF2DFC6DB3BF1CB377ABDB77B2169E5 /* Pods-SetupController_Example.release.xcconfig */,
+				1A61F468E2D1F59C70E4148EF55F02AC /* Info.plist */,
+				8E05CBEB5BDD28D2C9E8D8389CA5BFE2 /* Pods-SetupController_Tests.modulemap */,
+				86C25C1E6DF8C4A542A92B38103D66D5 /* Pods-SetupController_Tests-acknowledgements.markdown */,
+				C9D9C1CE054A3BF71F2464DAD3C6D205 /* Pods-SetupController_Tests-acknowledgements.plist */,
+				4A522DDCF0D9499C40E76FA131E66C30 /* Pods-SetupController_Tests-dummy.m */,
+				98FFA91338A3719D32DE3D17BFB27CA2 /* Pods-SetupController_Tests-frameworks.sh */,
+				54E63CAB177FB631FB6D07B8A35BDB35 /* Pods-SetupController_Tests-resources.sh */,
+				1524B53D37DF5F2B82C76AEAD9A266C3 /* Pods-SetupController_Tests-umbrella.h */,
+				240F98F8D7F6502B2C6679CEB4B71334 /* Pods-SetupController_Tests.debug.xcconfig */,
+				C6B8968C95017063E315803440101BE2 /* Pods-SetupController_Tests.release.xcconfig */,
 			);
-			name = "Pods-SetupController_Example";
-			path = "Target Support Files/Pods-SetupController_Example";
+			name = "Pods-SetupController_Tests";
+			path = "Target Support Files/Pods-SetupController_Tests";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -303,6 +285,38 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC52AD80EFA8A71B7CD27FF08F8D3C5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D679F48D862617A3ED8913CEAA9E31AC /* Info.plist */,
+				D7E47DE089097EEA145C23F8BB61AF21 /* SetupController.modulemap */,
+				F86DDE916D804F494D07D0BF08298CD1 /* SetupController.xcconfig */,
+				6D33077766FDBCF4A3345CA84750F78C /* SetupController-dummy.m */,
+				7E2B0BC5A68544E64519286DBD9D0525 /* SetupController-prefix.pch */,
+				D7D522A15CE832A108855A8234820CFC /* SetupController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SetupController";
+			sourceTree = "<group>";
+		};
+		DDFB4A8D4C5972B5402D59AF7C951825 /* Pods-SetupController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5DFED08F97CA61F9B1CE0368F44836C8 /* Info.plist */,
+				366B32F8523E6047CD4889DB5E358C03 /* Pods-SetupController_Example.modulemap */,
+				9F266C724A444DA483F527931E75145E /* Pods-SetupController_Example-acknowledgements.markdown */,
+				DEA613FC90F89CE7F79F4EA5B5E9CF86 /* Pods-SetupController_Example-acknowledgements.plist */,
+				19112D84AB7C61D4E6ACD3943EC09FA0 /* Pods-SetupController_Example-dummy.m */,
+				49EF2CB1A0043F7F8BA9DF402217E6B8 /* Pods-SetupController_Example-frameworks.sh */,
+				8ED5E31ED5A5B265BD15168E97DD6261 /* Pods-SetupController_Example-resources.sh */,
+				BF650D66E5B65A7FA94E6337D9E4B9C8 /* Pods-SetupController_Example-umbrella.h */,
+				AA85E6438570262A16E912C5F2E32EDB /* Pods-SetupController_Example.debug.xcconfig */,
+				D37C5F3C57426D4E1F7E09672AC1179A /* Pods-SetupController_Example.release.xcconfig */,
+			);
+			name = "Pods-SetupController_Example";
+			path = "Target Support Files/Pods-SetupController_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,8 +424,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -488,7 +502,7 @@
 /* Begin XCBuildConfiguration section */
 		1355311007529776272EC3ED2AA0184C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEF2DFC6DB3BF1CB377ABDB77B2169E5 /* Pods-SetupController_Example.release.xcconfig */;
+			baseConfigurationReference = D37C5F3C57426D4E1F7E09672AC1179A /* Pods-SetupController_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -521,7 +535,7 @@
 		};
 		21FBDE16422A50BB3D0C4E1718E3847F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7231CA9ED89A10722EA07A0BEE35C8D /* Pods-SetupController_Example.debug.xcconfig */;
+			baseConfigurationReference = AA85E6438570262A16E912C5F2E32EDB /* Pods-SetupController_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -553,7 +567,7 @@
 		};
 		3032713F19E3F169A838E924C58F94B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DA0242157A08885311B4914A6577BB6 /* SetupController.xcconfig */;
+			baseConfigurationReference = F86DDE916D804F494D07D0BF08298CD1 /* SetupController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -581,7 +595,36 @@
 			};
 			name = Release;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		460EE9AB03E7F636DB6C2BACFEB9FCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86DDE916D804F494D07D0BF08298CD1 /* SetupController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SetupController/SetupController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SetupController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SetupController/SetupController.modulemap";
+				PRODUCT_NAME = SetupController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -591,10 +634,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -602,6 +647,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -641,38 +687,9 @@
 			};
 			name = Debug;
 		};
-		460EE9AB03E7F636DB6C2BACFEB9FCE7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DA0242157A08885311B4914A6577BB6 /* SetupController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SetupController/SetupController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SetupController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SetupController/SetupController.modulemap";
-				PRODUCT_NAME = SetupController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		53E1AE9B071DF17231370BC2858D2C6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90E5B26B7712AE6A50081A069FFB52E5 /* Pods-SetupController_Tests.debug.xcconfig */;
+			baseConfigurationReference = 240F98F8D7F6502B2C6679CEB4B71334 /* Pods-SetupController_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -702,7 +719,7 @@
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -712,10 +729,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -723,6 +742,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -759,7 +779,7 @@
 		};
 		DB0277A221E335377357FCCB90826F62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABC5A964EF7AD56CF626C464BD2EF34B /* Pods-SetupController_Tests.release.xcconfig */;
+			baseConfigurationReference = C6B8968C95017063E315803440101BE2 /* Pods-SetupController_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -796,8 +816,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

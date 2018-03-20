@@ -356,20 +356,24 @@
     self.activeField = nil;
 }
 
-#pragma mark - Keyboard Notifications
+#pragma mark - Keyboard Handling
+
+- (UIEdgeInsets)tableViewContentInsetByAccountingForKeyboardFrame:(CGRect)keyboardFrame
+{
+    CGRect rect = [self.view convertRect:keyboardFrame fromView:nil];
+    UIEdgeInsets contentInsets = self.tableView.contentInset;
+    contentInsets.bottom = rect.size.height;
+    return contentInsets;
+}
 
 - (void)keyboardDidShowNotification:(NSNotification *)notification
 {
-    UIScrollView *scrollView = self.tableView;
-    
     CGRect keyboardRect = [(NSValue *)notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
-    keyboardRect = [self.view convertRect:keyboardRect fromView:nil];
-
+    
     //Update scroll view inset
-    UIEdgeInsets contentInsets = scrollView.contentInset;
-    contentInsets.bottom = keyboardRect.size.height;
-    scrollView.contentInset = contentInsets;
-    scrollView.scrollIndicatorInsets = contentInsets;
+    UIEdgeInsets contentInset = [self tableViewContentInsetByAccountingForKeyboardFrame:keyboardRect];
+    self.tableView.contentInset = contentInset;
+    self.tableView.scrollIndicatorInsets = contentInset;
 
     //Scroll to active text field
     CGRect visibleFrame = self.view.frame;
@@ -377,20 +381,17 @@
     CGRect activeFieldFrame = [self.view convertRect:self.activeField.frame fromView:self.activeField.superview];
     
     if (!CGRectContainsPoint(visibleFrame, activeFieldFrame.origin)) {
-        activeFieldFrame = [scrollView convertRect:self.activeField.frame fromView:self.activeField.superview];
-        [scrollView scrollRectToVisible:activeFieldFrame animated:YES];
+        activeFieldFrame = [self.tableView convertRect:self.activeField.frame fromView:self.activeField.superview];
+        [self.tableView scrollRectToVisible:activeFieldFrame animated:YES];
     }
 }
 
 - (void)keyboardWillHideNotification:(NSNotification *)notification
 {
-    UIScrollView *scrollView = self.tableView;
-    UIEdgeInsets contentInsets = scrollView.contentInset;
-    contentInsets.bottom = 0;
-    
+    UIEdgeInsets contentInset = [self tableViewContentInsetByAccountingForKeyboardFrame:CGRectZero];
     [UIView animateWithDuration:0.3 animations:^{
-        scrollView.contentInset = contentInsets;
-        scrollView.scrollIndicatorInsets = contentInsets;
+        self.tableView.contentInset = contentInset;
+        self.tableView.scrollIndicatorInsets = contentInset;
     }];
 }
 

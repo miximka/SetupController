@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, readonly) UITableViewCellSeparatorStyle customCellSeparatorStyle;
 
+- (UIEdgeInsets)tableViewContentInsetByAccountingForKeyboardFrame:(CGRect)keyboardFrame;
+
 #pragma mark - Providing Table View Content
 
 @property (nonatomic) NSArray *sections;
