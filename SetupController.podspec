@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SetupController'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'MBSetupController can present a sequence of dialog views that lead the user through a series of steps like a wizard or a setup assistant.'
 
 # This description is used to generate tags and improve search results.
