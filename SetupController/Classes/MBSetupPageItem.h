@@ -20,6 +20,7 @@ typedef CGFloat(^MBSetupPageItemCellHeightBlock)(UITableView *tableView, MBSetup
 
 - (instancetype)initWithTitle:(nullable NSString *)title;
 
+@property (nonatomic, nullable) NSString *identifier;
 @property (nonatomic, nullable) NSString *title;
 
 /**

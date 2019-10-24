@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class MBSectionHeader;
 @class MBSectionFooter;
+@class MBSetupPageSection;
 
 @interface MBTableViewPageController : MBBasePageController <UITableViewDataSource, UITableViewDelegate>
 
@@ -32,8 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Providing Table View Content
 
-@property (nonatomic) NSArray *sections;
-- (void)setSections:(NSArray *)sections;
+@property (nonatomic) NSArray<MBSetupPageSection *> *sections;
 
 /**
     Convenient method to create page header view with specified title.
