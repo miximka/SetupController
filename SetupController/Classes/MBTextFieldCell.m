@@ -21,6 +21,7 @@ static int MBTextFieldCellContext;
 
 - (void)dealloc
 {
+    [self setItem:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextFieldTextDidChangeNotification object:_textField];
 }
 
